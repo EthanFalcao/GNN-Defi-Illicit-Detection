@@ -1,1 +1,0 @@
-This directory is to be used for any of the utils.

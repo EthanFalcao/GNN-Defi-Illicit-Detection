@@ -1,9 +1,0 @@
-seed: 42
-raw_dir: data/raw/elliptic
-processed_dir: data/processed
-normalize: true
-unknown_label_value: -1
-train_frac: 0.7
-val_frac: 0.15
-test_frac: 0.15
-stratify_on_known_labels_only: true

@@ -1,9 +1,0 @@
-search_space:
-  model.hidden_channels: [64, 128, 256]
-  model.dropout: [0.3, 0.5]
-  optimizer.lr: [0.01, 0.001, 0.0005]
-  optimizer.weight_decay: [0.0005, 0.0001]
-  loss.gamma: [1.0, 2.0, 3.0]
-
-sweep:
-  max_trials: 36
