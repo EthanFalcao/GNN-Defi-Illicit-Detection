@@ -1,0 +1,35 @@
+data:
+  graph_dir: data/processed/graph
+  splits_path: data/processed/splits/split_indices.npz
+
+runtime:
+  device: mps
+  seed: 42
+  log_every: 10
+
+model:
+  hidden_channels: 128
+  out_channels: 2
+  dropout: 0.3
+
+optimizer:
+  lr: 0.001
+  weight_decay: 0.0005
+
+training:
+  epochs: 150
+  select_metric: val_f1
+
+loss:
+  gamma: 2.0
+  beta: 0.9999
+
+smote:
+  enabled: false
+  k_neighbors: 5
+  smote_k_neighbors: 5
+
+output:
+  results_path: reports/graphsage_sweep_results.json
+  best_config_path: reports/graphsage_best_config.yaml
+  weights_path: reports/graphsage_best_weights.pt
