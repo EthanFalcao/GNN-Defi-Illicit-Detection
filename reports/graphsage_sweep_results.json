@@ -1,0 +1,1115 @@
+{
+  "num_trials": 36,
+  "results": [
+    {
+      "trial": 1,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.01,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.7045454545454546,
+        "roc_auc": 0.9675611808927741
+      },
+      "test": {
+        "f1": 0.6970560303893637,
+        "roc_auc": 0.9688229735595812
+      }
+    },
+    {
+      "trial": 2,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.30824372759856633,
+        "roc_auc": 0.7519846947154988
+      },
+      "test": {
+        "f1": 0.3289103337354242,
+        "roc_auc": 0.7724376466450134
+      }
+    },
+    {
+      "trial": 3,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.01,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.7269338303821062,
+        "roc_auc": 0.9695273814126588
+      },
+      "test": {
+        "f1": 0.7166979362101313,
+        "roc_auc": 0.9727802661582274
+      }
+    },
+    {
+      "trial": 4,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.44419134396355353,
+        "roc_auc": 0.9542965389566853
+      },
+      "test": {
+        "f1": 0.4166666666666667,
+        "roc_auc": 0.9560680270019908
+      }
+    },
+    {
+      "trial": 5,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.2246858832224686,
+        "roc_auc": 0.7352391892702959
+      },
+      "test": {
+        "f1": 0.2511013215859031,
+        "roc_auc": 0.7434474715991967
+      }
+    },
+    {
+      "trial": 6,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.27230046948356806,
+        "roc_auc": 0.7424199387435021
+      },
+      "test": {
+        "f1": 0.2826086956521739,
+        "roc_auc": 0.7446793711322124
+      }
+    },
+    {
+      "trial": 7,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.36798088410991636,
+        "roc_auc": 0.9553263981262938
+      },
+      "test": {
+        "f1": 0.3581730769230769,
+        "roc_auc": 0.9582654631249001
+      }
+    },
+    {
+      "trial": 8,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.34269662921348315,
+        "roc_auc": 0.7865178942392559
+      },
+      "test": {
+        "f1": 0.3381535038932147,
+        "roc_auc": 0.782946304487506
+      }
+    },
+    {
+      "trial": 9,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.3422330097087379,
+        "roc_auc": 0.949088619998018
+      },
+      "test": {
+        "f1": 0.30559006211180123,
+        "roc_auc": 0.9517487599583684
+      }
+    },
+    {
+      "trial": 10,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.38736102984201287,
+        "roc_auc": 0.8135124408941793
+      },
+      "test": {
+        "f1": 0.3951332560834299,
+        "roc_auc": 0.8214969318245793
+      }
+    },
+    {
+      "trial": 11,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.26539753639417696,
+        "roc_auc": 0.7501527225084365
+      },
+      "test": {
+        "f1": 0.28346456692913385,
+        "roc_auc": 0.753847955844701
+      }
+    },
+    {
+      "trial": 12,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.38388625592417064,
+        "roc_auc": 0.9488627349169948
+      },
+      "test": {
+        "f1": 0.3337393422655298,
+        "roc_auc": 0.9501850117455591
+      }
+    },
+    {
+      "trial": 13,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.25724381625441695,
+        "roc_auc": 0.7760936815918316
+      },
+      "test": {
+        "f1": 0.22481751824817517,
+        "roc_auc": 0.7837150349202981
+      }
+    },
+    {
+      "trial": 14,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.24588576960309777,
+        "roc_auc": 0.7934798538888757
+      },
+      "test": {
+        "f1": 0.24308300395256918,
+        "roc_auc": 0.7944338752248965
+      }
+    },
+    {
+      "trial": 15,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.3865425912670007,
+        "roc_auc": 0.808098875785538
+      },
+      "test": {
+        "f1": 0.37727910238429174,
+        "roc_auc": 0.8077631886877868
+      }
+    },
+    {
+      "trial": 16,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.4074505238649593,
+        "roc_auc": 0.9486428982521473
+      },
+      "test": {
+        "f1": 0.375743162901308,
+        "roc_auc": 0.9511227488841836
+      }
+    },
+    {
+      "trial": 17,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.32186732186732187,
+        "roc_auc": 0.9462037581136012
+      },
+      "test": {
+        "f1": 0.2903629536921151,
+        "roc_auc": 0.9499288845836573
+      }
+    },
+    {
+      "trial": 18,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.6769825918762089,
+        "roc_auc": 0.9593334738426937
+      },
+      "test": {
+        "f1": 0.656188605108055,
+        "roc_auc": 0.9622669556879072
+      }
+    },
+    {
+      "trial": 19,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.43707093821510296,
+        "roc_auc": 0.9510073637140625
+      },
+      "test": {
+        "f1": 0.41299303944315546,
+        "roc_auc": 0.9512290614300412
+      }
+    },
+    {
+      "trial": 20,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.27341772151898736,
+        "roc_auc": 0.9453432545969127
+      },
+      "test": {
+        "f1": 0.24646983311938384,
+        "roc_auc": 0.949090481049149
+      }
+    },
+    {
+      "trial": 21,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.578838174273859,
+        "roc_auc": 0.9591959886903922
+      },
+      "test": {
+        "f1": 0.5452609158679447,
+        "roc_auc": 0.9615048552497693
+      }
+    },
+    {
+      "trial": 22,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.23897581792318634,
+        "roc_auc": 0.7726786527664757
+      },
+      "test": {
+        "f1": 0.24238227146814403,
+        "roc_auc": 0.7720963763938692
+      }
+    },
+    {
+      "trial": 23,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.2911306702775897,
+        "roc_auc": 0.7707335053875104
+      },
+      "test": {
+        "f1": 0.29395973154362415,
+        "roc_auc": 0.7750491666445666
+      }
+    },
+    {
+      "trial": 24,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.28858218318695106,
+        "roc_auc": 0.9453227830344718
+      },
+      "test": {
+        "f1": 0.2842767295597484,
+        "roc_auc": 0.9496918331958483
+      }
+    },
+    {
+      "trial": 25,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.01,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.7410795974382434,
+        "roc_auc": 0.9617163171845274
+      },
+      "test": {
+        "f1": 0.7435897435897436,
+        "roc_auc": 0.9647312200167216
+      }
+    },
+    {
+      "trial": 26,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.5493107104984093,
+        "roc_auc": 0.9537098425876427
+      },
+      "test": {
+        "f1": 0.5359056806002144,
+        "roc_auc": 0.9569966915163519
+      }
+    },
+    {
+      "trial": 27,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.47032474804031354,
+        "roc_auc": 0.9530496346989262
+      },
+      "test": {
+        "f1": 0.4352806414662085,
+        "roc_auc": 0.9559859081208362
+      }
+    },
+    {
+      "trial": 28,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.3627556512378902,
+        "roc_auc": 0.7898962836204703
+      },
+      "test": {
+        "f1": 0.34676564156945916,
+        "roc_auc": 0.7866982998832657
+      }
+    },
+    {
+      "trial": 29,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.01,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.7730941704035874,
+        "roc_auc": 0.9711164864471279
+      },
+      "test": {
+        "f1": 0.774597495527728,
+        "roc_auc": 0.9768380555179468
+      }
+    },
+    {
+      "trial": 30,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.01,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.7876106194690266,
+        "roc_auc": 0.9733469562276121
+      },
+      "test": {
+        "f1": 0.793315743183817,
+        "roc_auc": 0.9747711256055978
+      }
+    },
+    {
+      "trial": 31,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.2757281553398058,
+        "roc_auc": 0.7915771617388359
+      },
+      "test": {
+        "f1": 0.2880161127895267,
+        "roc_auc": 0.80904126555199
+      }
+    },
+    {
+      "trial": 32,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.0005,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 1.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.042515500442869794,
+        "roc_auc": 0.6073384502934179
+      },
+      "test": {
+        "f1": 0.043478260869565216,
+        "roc_auc": 0.6180583374392774
+      }
+    },
+    {
+      "trial": 33,
+      "config": {
+        "model": {
+          "hidden_channels": 64,
+          "out_channels": 2,
+          "dropout": 0.3
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.3052109181141439,
+        "roc_auc": 0.9475572075486094
+      },
+      "test": {
+        "f1": 0.3009950248756219,
+        "roc_auc": 0.9513030382124976
+      }
+    },
+    {
+      "trial": 34,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.01,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 3.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.6903163950143816,
+        "roc_auc": 0.9717757638102787
+      },
+      "test": {
+        "f1": 0.6666666666666666,
+        "roc_auc": 0.9720060688877381
+      }
+    },
+    {
+      "trial": 35,
+      "config": {
+        "model": {
+          "hidden_channels": 128,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.01,
+          "weight_decay": 0.0005
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.7221702525724977,
+        "roc_auc": 0.9673422747534921
+      },
+      "test": {
+        "f1": 0.7099811676082862,
+        "roc_auc": 0.9700729020254286
+      }
+    },
+    {
+      "trial": 36,
+      "config": {
+        "model": {
+          "hidden_channels": 256,
+          "out_channels": 2,
+          "dropout": 0.5
+        },
+        "optimizer": {
+          "lr": 0.001,
+          "weight_decay": 0.0001
+        },
+        "training": {
+          "epochs": 150,
+          "select_metric": "val_f1"
+        },
+        "loss": {
+          "gamma": 2.0,
+          "beta": 0.9999
+        }
+      },
+      "val": {
+        "f1": 0.5770833333333333,
+        "roc_auc": 0.9542297737473614
+      },
+      "test": {
+        "f1": 0.5529661016949152,
+        "roc_auc": 0.9576803951755971
+      }
+    }
+  ],
+  "best_trial": {
+    "trial": 30,
+    "config": {
+      "model": {
+        "hidden_channels": 128,
+        "out_channels": 2,
+        "dropout": 0.3
+      },
+      "optimizer": {
+        "lr": 0.01,
+        "weight_decay": 0.0005
+      },
+      "training": {
+        "epochs": 150,
+        "select_metric": "val_f1"
+      },
+      "loss": {
+        "gamma": 2.0,
+        "beta": 0.9999
+      }
+    },
+    "val": {
+      "f1": 0.7876106194690266,
+      "roc_auc": 0.9733469562276121
+    },
+    "test": {
+      "f1": 0.793315743183817,
+      "roc_auc": 0.9747711256055978
+    }
+  }
+}
